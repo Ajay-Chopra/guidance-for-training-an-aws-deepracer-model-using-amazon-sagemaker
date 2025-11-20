@@ -42,7 +42,7 @@ Resources:
   DPR401Notebook:
     Type: AWS::SageMaker::NotebookInstance
     Properties: 
-      PlatformIdentifier: notebook-al2-v1
+      PlatformIdentifier: notebook-al2-v2
       DefaultCodeRepository: https://github.com/aws-solutions-library-samples/guidance-for-training-an-aws-deepracer-model-using-amazon-sagemaker.git
       DirectInternetAccess: Enabled
       InstanceType: ml.t3.2xlarge
